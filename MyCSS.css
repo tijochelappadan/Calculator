@@ -1,0 +1,55 @@
+﻿body {
+    background-color:black !important;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    font-size: xx-large !important;
+}
+
+input {
+    width: 100%;
+    height:14vh;
+    border: 1px solid silver;
+    font-size: 5vh !important;
+}
+
+#operator {
+    width: 100%;
+    height:14vh;
+    background-color: green;
+    color: white;
+    border: 1px solid silver;
+    font-size: 5vh !important;
+}
+
+#clear {
+    width: 100%;
+    height:14vh;
+    background-color: red;
+    color: white;
+    border: 1px solid silver;
+    font-size: 5vh !important;
+}
+
+#calc {
+    width:100%;
+    height:14vh;
+    border: 1px solid silver;
+    text-align:right;
+    font-size: 10vh !important;
+}
+
+#equals {
+    width: 100%;
+    height:56vh;
+    background-color: midnightblue;
+    color: white;
+    border: 1px solid silver;
+    font-size: 5vh !important;
+}
+
+.elementstyle {
+    padding: 0px !important;
+}

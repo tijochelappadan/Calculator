@@ -1,0 +1,87 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+    <link rel="stylesheet" href="MyCSS.css" />
+    <link rel="stylesheet" href="bootstrap.css" />
+    <link rel="stylesheet" href="bootstrap.min.css" />
+</head>
+<body>
+    <div class="form-horizontal">
+        <form name="form1">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 elementstyle">
+                <h1>Calculator</h1>
+            </div>
+            <div class="clearfix"></div>
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 elementstyle">
+                <input id="calc" type="text" name="answer" readonly="readonly">
+            </div>
+            <div class="clearfix"></div>
+
+            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 elementstyle">
+                <input type="button" value="/" onclick="form1.answer.value += '/' " id="operator">
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 elementstyle">
+                <input type="button" value="*" onclick="form1.answer.value += '*' " id="operator">
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 elementstyle">
+                <input type="button" value="-" onclick="form1.answer.value += '-' " id="operator">
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 elementstyle">
+                <input type="button" value="+" onclick="form1.answer.value += '+' " id="operator">
+            </div>
+            <div class="clearfix"></div>
+
+            <div class="col-lg-9 col-md-9 col-sm-9 col-xs-9 elementstyle">
+                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 elementstyle">
+                    <input type="button" value="7" onclick="form1.answer.value += '7' ">
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 elementstyle">
+                    <input type="button" value="8" onclick="form1.answer.value += '8' ">
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 elementstyle">
+                    <input type="button" value="9" onclick="form1.answer.value += '9' ">
+                </div>
+                <div class="clearfix"></div>
+
+                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 elementstyle">
+                    <input type="button" value="4" onclick="form1.answer.value += '4' ">
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 elementstyle">
+                    <input type="button" value="5" onclick="form1.answer.value += '5' ">
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 elementstyle">
+                    <input type="button" value="6" onclick="form1.answer.value += '6' ">
+                </div>
+                <div class="clearfix"></div>
+
+                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 elementstyle">
+                    <input type="button" value="1" onclick="form1.answer.value += '1' ">
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 elementstyle">
+                    <input type="button" value="2" onclick="form1.answer.value += '2' ">
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 elementstyle">
+                    <input type="button" value="3" onclick="form1.answer.value += '3' ">
+                </div>
+                <div class="clearfix"></div>
+
+                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 elementstyle">
+                    <input type="button" value="C" onclick="form1.answer.value = ' ' " id="clear">
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 elementstyle">
+                    <input type="button" value="0" onclick="form1.answer.value += '0' ">
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 elementstyle">
+                    <input type="button" value="." onclick="form1.answer.value += '.' ">
+                </div>
+                <div class="clearfix"></div> 
+            </div>
+
+            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 elementstyle">
+                <input type="button" value="=" onclick="form1.answer.value = eval(form1.answer.value) " id="equals">
+            </div>
+        </form>
+    </div>
+</body>
+</html>
